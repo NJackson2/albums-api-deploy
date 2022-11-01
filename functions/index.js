@@ -1,7 +1,7 @@
 import functions from "firebase-functions"
 import express from "express"
 import cors from "cors"
-import { createNewAlbum, getAllAlbums } from "./src/albums"
+import { createNewAlbum, getAllAlbums } from "./src/albums.js"
 
 const app = express()
 app.use(cors())
